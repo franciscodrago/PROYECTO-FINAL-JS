@@ -121,6 +121,19 @@ function eliminar(id){
       const direccion = Swal.getPopup().querySelector("#direccion").value;
       const codigo = Swal.getPopup().querySelector("#codigo").value;
       const ciudad = Swal.getPopup().querySelector("#ciudad").value;
+      
+      !isNaN(ciudad)? Swal.showValidationMessage('La ciudad no puede estar compuesta por números'): '';
+      !ciudad? Swal.showValidationMessage('Ciudad obligatoria'): '';
+      isNaN(codigo)? Swal.showValidationMessage('El Código Postal debe estar compuesto por números'): '';
+      !codigo? Swal.showValidationMessage('Código Postal obligatorio'): '';
+      !direccion? Swal.showValidationMessage('Dirección obligatoria'): '';
+      isNaN(telefono)?Swal.showValidationMessage('El Teléfono debe estar compuesto por números'): '';
+      !telefono? Swal.showValidationMessage('Teléfono obligatorio'): '';
+      const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+      !email.match(validRegex)? Swal.showValidationMessage('Email invalido'): '';
+      !email? Swal.showValidationMessage('Email obligatorio'): '';
+      !isNaN(nombre)? Swal.showValidationMessage('El nombre no puede estar compuesto por números'): '';
+      !nombre? Swal.showValidationMessage('Nombre obligatorio'): '';
 
 
       return { nombre: nombre, email: email, telefono: telefono, direccion: direccion, codigo: codigo, ciudad: ciudad}
