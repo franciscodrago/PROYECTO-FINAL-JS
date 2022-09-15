@@ -1,0 +1,163 @@
+ 
+ [{
+    "id":1,
+    "nombre":"Buzo Batic",
+    "imagen":"./assets/buzo.jpg",
+    "precio": 8000
+  },
+  {
+    "id":2,
+    "nombre":"Buzo Gris",
+    "imagen":"./assets/buzo3.jpg",
+    "precio": 8000
+    
+  },
+  
+    {
+      "id":3,
+      "nombre":"Buzo Beige",
+      "imagen":"./assets/buzo2.jpg",
+      "precio": 7500
+      
+  },
+
+  {
+    "id":4,
+    "nombre":"Buzo Negro",
+    "imagen":"./assets/buzo1.jpg",
+    "precio": 8000
+    
+  },
+
+  {
+    "id":5,
+    "nombre":"Campera Rompevientos",
+    "imagen":"./assets/campera.jpg",
+    "precio": 7500
+  },  
+  
+  {
+    "id":6,
+    "nombre":"Campera Negra",
+    "imagen":"./assets/campera1.jpg",
+    "precio": 14000
+  },  
+  {
+    "id":7,
+    "nombre":"Campera Militar",
+    "imagen":"./assets/campera2.jpg",
+    "precio": 14000
+    
+},    
+
+{
+  "id":8,
+  "nombre":"Campera Frisa",
+  "imagen":"./assets/campera3.jpg",
+  "precio": 7000
+  
+},
+
+{
+  "id":9,
+  "nombre":"Jean Ocean",
+  "imagen":"./assets/jean.jpg",
+  "precio": 8500
+  
+},
+
+{
+  "id":10,
+  "nombre":"Jean Claro",
+  "imagen":"./assets/jean1.jpg",
+  "precio": 9000
+  
+},
+
+{
+  "id":11,
+  "nombre":"Jean Chupin",
+  "imagen":"./assets/jean2.jpg",
+  "precio": 8000
+  
+},
+
+{
+  "id":12,
+  "nombre":"Jogger Negro",
+  "imagen":"./assets/jogger.jpg",
+  "precio": 8000
+  
+},
+
+{
+  "id":13,
+  "nombre":"Jogger Militar",
+  "imagen":"./assets/jogger1.jpg",
+  "precio": 8000
+  
+},
+
+{
+  "id":14,
+  "nombre":"Joggin Gris",
+  "imagen":"./assets/joggin.jpg",
+  "precio": 6500
+  
+},
+
+{
+  "id":15,
+  "nombre":"Joggin Negro",
+  "imagen":"./assets/joggin1.jpg",
+  "precio": 6500
+  
+},
+
+{
+  "id":16,
+  "nombre":"Pantalon mostasa",
+  "imagen":"./assets/pantalon.jpg",
+  "precio": 8500
+  },
+
+  {
+    "id":17,
+    "nombre":"Remera blanca",
+    "imagen":"./assets/remera1.jpg",
+    "precio": 4500
+    
+},
+
+{
+  "id":18,
+  "nombre":"Buzo Negro",
+  "imagen":"./assets/remera.jpg",
+  "precio": 4500
+  
+},
+
+{
+  "id":19,
+  "nombre":"Remera Verde",
+  "imagen":"./assets/remera2.jpg",
+  "precio": 5000
+  
+},
+
+{
+  "id":20,
+  "nombre":"Remera Azul",
+  "imagen":"./assets/remera3.jpg",
+  "precio": 4500
+  
+},
+
+{
+  "id":21,
+  "nombre":"Remera Overside",
+  "imagen":"./assets/remera4.jpg",
+  "precio": 5500
+  
+}]
+
