@@ -97,7 +97,7 @@ function eliminar(id){
   Swal.fire("Producto eliminado del carro!")
 }
 
-//Funcion para terminar compra y formulario de sweetalert para completar datos personales 
+//Funcion para terminar compra, formulario de sweetalert para completar datos personales con inputs validados
 //Vacia el carrito de compras y el storage
   function terminarCompra(){
   document.getElementById("finalizar").addEventListener("click", function(){
